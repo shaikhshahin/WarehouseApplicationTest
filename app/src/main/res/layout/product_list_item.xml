@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Single ListItem -->
+
+    <!-- Product Name -->
+
+    <ImageView
+        android:id="@+id/imProductURL"
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/listViewmargin"
+        android:textSize="@dimen/text_size14"
+        android:textStyle="bold" />
+
+</LinearLayout>
